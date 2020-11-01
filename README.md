@@ -1,7 +1,8 @@
 # tiny-chatbot
 a tiny-chatbot for study or research
 
-参考rasa(https://github.com/RasaHQ/rasa)，实现了一个简单的任务型对话机器人，由NLU，DM等模块组成，能识别用户的意图和实体，记录对话状态并根据对话状态决定机器的下一步动作。
+参考rasa(https://github.com/RasaHQ/rasa)
+实现了一个简单的任务型对话机器人，由NLU，DM等模块组成，能识别用户的意图和实体，记录对话状态并根据对话状态决定机器的下一步动作。
 
 这个项目是我在学习了rasa对话机器人框架源码之后，根据自己的理解实现的，旨在熟悉任务型对话机器人框架和原理，用于学习研究或者二次开发。
 
