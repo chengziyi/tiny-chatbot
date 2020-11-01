@@ -1,0 +1,10 @@
+language: en
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: CountVectorsFeaturizer
+  - name: SklearnIntentClassifier
+  - name: SpacyEntityExtractor
+
+policies:
+  - name: MemoizationPolicy
+  - name: PytorchPolicy
