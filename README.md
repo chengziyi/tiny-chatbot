@@ -82,4 +82,5 @@ core:包括read_core_data.py读取训练数据，MyTransformerEncoder.py用pytor
 python agent.py
 
 #### 最终效果：
-
+![image](https://github.com/chengziyi/tiny_chatbot/blob/main/images/1.png)
+![image](https://github.com/chengziyi/tiny_chatbot/blob/main/images/2.png)
