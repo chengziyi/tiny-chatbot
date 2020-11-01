@@ -1,3 +1,4 @@
+import os
 import sys  
 sys.path.append('./nlu')
 sys.path.append('./core')
@@ -87,6 +88,8 @@ class Agent:
         self.policy_ensemble.train(core_filename)
 
     def train(self, nlu_filename: Text, core_filename: Text):
+        if not os.path.exists('./model'):
+            os.mkdir("./model")
         self.train_nlu(nlu_filename)
         self.train_core(core_filename)
 
